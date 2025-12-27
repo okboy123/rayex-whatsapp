@@ -84,10 +84,10 @@ Reply **CONFIRM** to proceed or **EDIT** to change details."""
 
 class Rates:
     # NGN -> RMB (e.g. 230 Naira = 1 RMB)
-    NGN_TO_RMB_RATE = 213
+    NGN_TO_RMB_RATE = 215
     
     # USDT -> RMB (e.g. 1 USDT = 7.20 RMB)
-    USDT_TO_RMB_RATE = 6.89
+    USDT_TO_RMB_RATE = 6.70
     
     @staticmethod
     def calculate_rmb_from_ngn(ngn_amount: float) -> float:
