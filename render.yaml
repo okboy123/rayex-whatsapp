@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: rayex-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn rayex_bot.webhook:app
+    plan: free
+    autoDeploy: true
